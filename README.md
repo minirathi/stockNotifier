@@ -1,1 +1,1 @@
-# stockNotifier
+# stock-notifier

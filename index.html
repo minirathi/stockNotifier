@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<h1>Stock Notifier</h1>
+		</div>
+		<center>
+			<form>
+				<input
+					id="in1"
+					type="text"
+					name="Stock_name"
+					placeholder="Stock_name_Symbol"
+				/><br />
+				<br />
+				<input id="in2" type="number" name="Entry_price" placeholder="Entry_price" />
+				<input id="in3" type="number" name="Exit_price" placeholder="Exit_price" /> <br />
+				<button onclick="send(event)">Get Notified</button>
+			</form>
+		</center>
+
+		<script src="./senddata.js"></script>
+	</body>
+</html>
